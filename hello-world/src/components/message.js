@@ -2,6 +2,8 @@ import React , {Component}  from 'react'
 
 class Message extends Component{
     
+
+    // state 
     constructor(){
         super()
         this.state = {

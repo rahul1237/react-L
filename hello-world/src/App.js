@@ -5,6 +5,7 @@ import Greet from './components/greet';
 import Welcome from './components/welcome'
 import Hello from './components/hello'
 import Message from './components/message'
+import Counter from './components/counter'
 // import { Component } from 'react';
 
 // function App() {
@@ -27,6 +28,7 @@ class App extends Component{
         <Greet name = 'mahajan rahul' roll_no = '002'  />
         <Hello college_code = '31'  />
         <Message />        
+        <Counter />
       </div>
     )
   }

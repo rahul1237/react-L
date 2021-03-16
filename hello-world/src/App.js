@@ -6,6 +6,8 @@ import Welcome from './components/welcome'
 import Hello from './components/hello'
 import Message from './components/message'
 import Counter from './components/counter'
+import Click from './components/functionclick'
+import Clickclass from './components/classclick'
 // import { Component } from 'react';
 
 // function App() {
@@ -26,9 +28,12 @@ class App extends Component{
           </button>
         </Welcome>
         <Greet name = 'mahajan rahul' roll_no = '002'  />
-        <Hello college_code = '31'  />
-        <Message />        
         <Counter />
+        <Message />        
+        <Hello college_code = '31'  />
+        <Click />
+        <br />
+        <Clickclass />
       </div>
     )
   }

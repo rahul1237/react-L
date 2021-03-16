@@ -11,12 +11,15 @@ import React , {Component} from 'react'
 
 class Welcome extends Component{
     render(){
+
+        const {by , children} = this.props
+
         return(
             <div>
             <h1>
-                bye-bye from {this.props.by}
+                bye-bye from {by}
             </h1>
-            {this.props.children}
+            {children}
             </div>
         )
     }

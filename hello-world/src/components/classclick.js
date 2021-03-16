@@ -1,6 +1,6 @@
 import React , {Component} from 'react'
 
-export class Classclick extends Component{
+class Classclick extends Component{
     clickHandler(){
         console.log('dusra bhi dba dia');
     }

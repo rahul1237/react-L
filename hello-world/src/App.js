@@ -8,6 +8,7 @@ import Message from './components/message'
 import Counter from './components/counter'
 import Click from './components/functionclick'
 import Clickclass from './components/classclick'
+import Eventbind from './components/eventbind'
 // import { Component } from 'react';
 
 // function App() {
@@ -34,6 +35,8 @@ class App extends Component{
         <Click />
         <br />
         <Clickclass />
+        <br />
+        <Eventbind />
       </div>
     )
   }
